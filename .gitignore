@@ -1,0 +1,27 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build directory
+build/
+
+# Ignore environment variables file
+.env
+
+# Ignore coverage reports
+coverage/
+
+# Ignore log files
+*.log
+
+# Ignore Solidity artifacts
+artifacts/
+
+# Ignore Truffle and Hardhat files
+.cache/
+.history/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore MacOS system files
+.DS_Store

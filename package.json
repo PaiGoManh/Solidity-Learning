@@ -1,0 +1,23 @@
+{
+  "name": "solidity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaiGoManh/Solidity-Learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaiGoManh/Solidity-Learning/issues"
+  },
+  "homepage": "https://github.com/PaiGoManh/Solidity-Learning#readme",
+  "description": "",
+  "dependencies": {
+    "hardhat": "^2.22.18"
+  }
+}
