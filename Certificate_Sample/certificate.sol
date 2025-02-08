@@ -26,6 +26,4 @@ contract Cert{
         certificates[_id] = certificate(_name,_course,_grade,_date);
     }
 
-
-
 }
