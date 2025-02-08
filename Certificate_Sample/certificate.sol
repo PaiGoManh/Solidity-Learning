@@ -26,4 +26,9 @@ contract Cert{
         certificates[_id] = certificate(_name,_course,_grade,_date);
     }
 
+    function getCertificate(uint _id) public view returns (string memory, string memory, string memory, string memory) {
+        Certificate memory cert = certificates[_id];
+        return (cert.name, cert.course, cert.grade, cert.date);
+    }
+
 }
