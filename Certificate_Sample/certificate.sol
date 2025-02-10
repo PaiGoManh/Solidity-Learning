@@ -11,6 +11,7 @@ contract Cert{
     }
     address public admin;
 
+
     constructor(){
         admin = msg.sender;
     }
