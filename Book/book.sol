@@ -8,7 +8,7 @@ contract Book {
     uint public price;
     address public owner;
     bool sold;
-    address [] public buyers;
+    address []  public buyers;
 
     function setBook (string memory x,uint y) public {
         title = x;
